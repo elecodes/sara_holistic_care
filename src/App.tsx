@@ -472,7 +472,7 @@ export default function App() {
 
           </div>
 
-          <!-- Emergency Notice -->
+          {/* Emergency Notice */}
           <div className="bg-linen rounded-3xl p-6 sm:p-8">
             <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
               <div className="w-12 h-12 rounded-2xl bg-terracotta-tint text-terracotta flex-shrink-0 flex items-center justify-center">
