@@ -1,0 +1,1181 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sara | Homeopathy &amp; Naturopathy Student Clinic • Montreal</title>
+  <meta name="description" content="Complimentary 1-on-1 Homeopathic First-Aid Consultations in Montreal with Sara, student practitioner. Gentle, natural support for acute recovery and minor injuries.">
+  
+  <!-- Google Fonts: Cormorant Garamond (Headings) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            alabaster: '#FBF9F5',
+            linen: {
+              DEFAULT: '#F2ECE4',
+              dark: '#E7DFD4',
+            },
+            laurel: {
+              DEFAULT: '#2D4A3E',
+              dark: '#1F342B',
+              hover: '#243C32',
+              light: '#3C6051',
+              tint: '#EBF1ED',
+            },
+            sage: {
+              DEFAULT: '#8EA89D',
+              tint: '#EEF3F0',
+              text: '#3A5248',
+            },
+            terracotta: {
+              DEFAULT: '#C47355',
+              hover: '#AD6145',
+              dark: '#934E36',
+              tint: '#FAEDE7',
+            },
+            charcoal: {
+              DEFAULT: '#2B2D2F',
+              light: '#424548',
+            },
+            driftwood: {
+              DEFAULT: '#666562',
+              light: '#85837E',
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Garamond', 'Georgia', 'serif'],
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #FBF9F5;
+      color: #2B2D2F;
+      font-family: 'Inter', system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .font-serif-soft {
+      font-family: 'Cormorant Garamond', Garamond, serif;
+      letter-spacing: -0.015em;
+    }
+  </style>
+</head>
+<body class="selection:bg-terracotta-tint selection:text-terracotta-dark antialiased relative overflow-x-hidden min-h-[100dvh] flex flex-col bg-alabaster">
+
+  <!-- TOP PRACTICUM BANNER -->
+  <aside aria-label="Clinical notice" class="bg-laurel text-alabaster px-4 py-3 text-sm font-medium text-center relative z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-2 sm:gap-3 flex-wrap">
+      <span class="inline-flex items-center gap-1.5 bg-laurel-light text-alabaster px-3 py-1 rounded-full text-xs font-semibold">
+        <span class="w-2 h-2 rounded-full bg-emerald-300"></span>
+        Montreal Practicum 2026
+      </span>
+      <span>Complimentary Acute First-Aid Consultations • Supporting clinical certification hours</span>
+      <a href="#booking" class="underline underline-offset-4 font-semibold text-white hover:text-linen transition-colors">Book Free Slot &rarr;</a>
+    </div>
+  </aside>
+
+  <!-- NAVIGATION BAR -->
+  <header class="sticky top-0 z-40 bg-alabaster transition-colors">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Logo / Name -->
+      <a href="#" class="group flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-linen flex items-center justify-center text-laurel group-hover:bg-sage-tint transition-colors">
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+            <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+          </svg>
+        </div>
+        <div>
+          <span class="font-serif-soft text-xl font-bold tracking-tight text-laurel block leading-tight">
+            Sara Homeopathy
+          </span>
+          <span class="text-xs font-medium text-driftwood block">
+            Naturopathy &amp; Homeopathy Student Clinic
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-charcoal">
+        <a href="#about" class="hover:text-laurel transition-colors">About Sara</a>
+        <a href="#coverage" class="hover:text-laurel transition-colors">What We Cover</a>
+        <a href="#how-it-works" class="hover:text-laurel transition-colors">How It Works</a>
+        <a href="#faq" class="hover:text-laurel transition-colors">FAQ</a>
+      </nav>
+
+      <!-- Language Badge & CTA -->
+      <div class="hidden sm:flex items-center gap-4">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-linen text-xs font-semibold text-charcoal" title="Consultations conducted in English, Français, or Español">
+          <svg class="w-4 h-4 text-laurel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="2" y1="12" x2="22" y2="12"/>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+          </svg>
+          <span>English • Français • Español</span>
+        </div>
+
+        <a href="#booking" class="inline-flex items-center justify-center px-5 py-2.5 rounded-full text-sm font-semibold text-white bg-laurel hover:bg-laurel-hover transform hover:-translate-y-0.5 transition-transform">
+          Book Free Session
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="mobileMenuBtn" aria-label="Toggle navigation menu" class="md:hidden p-2 rounded-lg text-charcoal hover:bg-linen transition-colors">
+        <svg id="menuIcon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <svg id="closeIcon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div id="mobileMenu" class="hidden md:hidden bg-linen px-4 pt-4 pb-6 space-y-3">
+      <a href="#about" class="block py-2 text-base font-medium text-charcoal hover:text-laurel mobile-nav-link">About Sara</a>
+      <a href="#coverage" class="block py-2 text-base font-medium text-charcoal hover:text-laurel mobile-nav-link">What We Cover</a>
+      <a href="#how-it-works" class="block py-2 text-base font-medium text-charcoal hover:text-laurel mobile-nav-link">How It Works</a>
+      <a href="#faq" class="block py-2 text-base font-medium text-charcoal hover:text-laurel mobile-nav-link">FAQ</a>
+      
+      <div class="pt-3 flex items-center justify-between">
+        <span class="text-xs font-semibold text-driftwood">Languages:</span>
+        <span class="text-xs font-semibold bg-alabaster px-3 py-1 rounded-md text-charcoal">English • Français • Español</span>
+      </div>
+      <a href="#booking" class="block w-full text-center mt-3 py-3 rounded-xl bg-laurel text-white font-semibold text-sm mobile-nav-link">
+        Reserve Free 60-Min Call
+      </a>
+    </div>
+  </header>
+
+  <main class="flex-grow">
+    
+    <!-- 1. HERO SECTION -->
+    <section class="pt-12 pb-20 md:pt-20 md:pb-28 bg-alabaster">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+          
+          <!-- Left Column: Copy & Actions -->
+          <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+            
+            <!-- Headline: Fraunces Optical Size 144 in Deep Laurel Green -->
+            <h1 class="font-serif-soft text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-laurel leading-[1.12]">
+              Gentle, Natural Relief for Everyday Recovery
+            </h1>
+
+            <!-- Subheadline in Slate Charcoal & Driftwood -->
+            <p class="text-lg sm:text-xl text-charcoal font-normal leading-relaxed max-w-2xl mx-auto lg:mx-0">
+              Book a complimentary 60-minute student consultation in Homeopathic First Aid. Experience personalized, complementary support while helping me complete my final clinical practicum in Montreal.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+              <a href="#booking" class="w-full sm:w-auto inline-flex items-center justify-center px-7 py-3.5 rounded-full text-base font-semibold text-white bg-laurel hover:bg-laurel-hover transform hover:-translate-y-0.5 transition-transform gap-2 group">
+                <span>Reserve Your Free 60-Min Call</span>
+                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                </svg>
+              </a>
+              <a href="#coverage" class="w-full sm:w-auto inline-flex items-center justify-center px-6 py-3.5 rounded-full text-base font-semibold text-laurel bg-linen hover:bg-linen-dark transition-colors">
+                Explore What Qualifies
+              </a>
+            </div>
+
+            <!-- Trust Highlights -->
+            <div class="pt-8 grid grid-cols-1 sm:grid-cols-3 gap-4 text-left">
+              
+              <div class="bg-linen p-4 rounded-2xl">
+                <div class="w-8 h-8 rounded-full bg-sage-tint text-laurel flex items-center justify-center mb-2">
+                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                  </svg>
+                </div>
+                <h2 class="text-sm font-bold text-laurel leading-tight">100% Free &amp; No Upsells</h2>
+                <p class="text-xs text-driftwood mt-1">Fulfills practicum clinical hours.</p>
+              </div>
+
+              <div class="bg-linen p-4 rounded-2xl">
+                <div class="w-8 h-8 rounded-full bg-terracotta-tint text-terracotta flex items-center justify-center mb-2">
+                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="23 7 16 12 23 17 23 7"/>
+                    <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+                  </svg>
+                </div>
+                <h2 class="text-sm font-bold text-laurel leading-tight">Microsoft Teams</h2>
+                <p class="text-xs text-driftwood mt-1">Live video from home anywhere.</p>
+              </div>
+
+              <div class="bg-linen p-4 rounded-2xl">
+                <div class="w-8 h-8 rounded-full bg-sage-tint text-laurel flex items-center justify-center mb-2">
+                  <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="m10.5 20.5 10-10a4.95 4.95 0 1 0-7-7l-10 10a4.95 4.95 0 1 0 7 7Z"/>
+                    <path d="m8.5 8.5 7 7"/>
+                  </svg>
+                </div>
+                <h2 class="text-sm font-bold text-laurel leading-tight">Single-Remedy Focus</h2>
+                <p class="text-xs text-driftwood mt-1">Tailored classical guidance.</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Right Column: Visual Hero Card with Photo -->
+          <div class="lg:col-span-5">
+            <div class="bg-linen rounded-3xl p-4 sm:p-5 space-y-4">
+              
+              <!-- Hero Photo -->
+              <div class="relative rounded-2xl overflow-hidden aspect-[4/3] bg-linen group">
+                <img 
+                  src="assets/images/sarita_homeopathy.jpg" 
+                  alt="Sara - Montreal Naturopathy & Homeopathy Student Practitioner" 
+                  class="w-full h-full object-cover object-center transform group-hover:scale-102 transition-transform duration-500"
+                  loading="eager"
+                />
+                
+                <div class="absolute top-3.5 left-3.5">
+                  <span class="inline-flex items-center gap-1.5 text-xs font-semibold text-laurel-dark bg-alabaster px-3 py-1 rounded-full">
+                    <span class="w-2 h-2 rounded-full bg-laurel"></span>
+                    Accepting Practicum Patients
+                  </span>
+                </div>
+
+                <div class="absolute bottom-3.5 left-3.5 right-3.5 flex items-end justify-between text-alabaster">
+                  <div class="bg-charcoal/80 px-3 py-1.5 rounded-xl">
+                    <p class="font-serif-soft text-base font-bold leading-tight text-white">Sara</p>
+                    <p class="text-xs text-linen font-medium">Naturopathy &amp; Homeopathy Intern</p>
+                  </div>
+                  <span class="text-xs font-semibold bg-terracotta px-3 py-1.5 rounded-xl text-white">
+                    Montreal, QC
+                  </span>
+                </div>
+              </div>
+
+              <!-- Session Overview Details -->
+              <div class="bg-alabaster rounded-2xl p-4 space-y-2.5">
+                <div class="flex items-center justify-between text-xs text-charcoal">
+                  <span class="font-medium text-driftwood">Session Format</span>
+                  <span class="font-semibold text-laurel">60 Min Video + 15 Min Check-in</span>
+                </div>
+                <div class="flex items-center justify-between text-xs text-charcoal">
+                  <span class="font-medium text-driftwood">Consultation Fee</span>
+                  <span class="font-bold text-laurel bg-sage-tint px-2 py-0.5 rounded">$0 (Practicum Study)</span>
+                </div>
+                <div class="flex items-center justify-between text-xs text-charcoal">
+                  <span class="font-medium text-driftwood">Languages</span>
+                  <span class="font-medium text-charcoal">English, Français, Español</span>
+                </div>
+              </div>
+
+              <!-- Highlight Quote in Oatmeal Linen with Terracotta Accent -->
+              <div class="bg-terracotta-tint rounded-2xl p-4 text-charcoal text-xs sm:text-sm italic leading-relaxed">
+                “First-aid homeopathy offers gentle relief for acute shocks, extractions, and healing tissues—aligning your body’s vitality without harsh side effects.”
+              </div>
+
+              <!-- Quick Action within Card -->
+              <div class="space-y-1.5 pt-1">
+                <a href="#booking" class="w-full inline-flex items-center justify-center py-3.5 px-4 rounded-xl text-sm font-semibold text-white bg-laurel hover:bg-laurel-hover transition-colors gap-1.5 group">
+                  <span>Reserve Your Free 60-Min Call</span>
+                  <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                  </svg>
+                </a>
+                <p class="text-xs text-center text-driftwood pt-1">
+                  Strict confidentiality • Supervised clinical case review
+                </p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- 2. ABOUT SARA SECTION -->
+    <section id="about" class="py-20 bg-linen">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Left: Personal Story & Credentials Box -->
+          <div class="lg:col-span-5 space-y-6">
+            <div class="rounded-3xl bg-alabaster p-8 text-center sm:text-left">
+              
+              <div class="inline-block p-3 rounded-2xl bg-linen mb-4">
+                <svg class="w-8 h-8 text-laurel" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+                  <path d="M12 5 9.04 7.96a2.17 2.17 0 0 0 0 3.08v0c.82.82 2.13.85 3 .07l2.07-1.9"/>
+                </svg>
+              </div>
+
+              <h2 class="font-serif-soft text-2xl font-bold text-laurel leading-snug">
+                Warm, Rigorous &amp; Patient-Centered Care
+              </h2>
+              <p class="text-sm text-charcoal mt-2 leading-relaxed">
+                "As a mother, I learned that true healing begins with deep listening and understanding the individual before rushing into one-size-fits-all fixes."
+              </p>
+
+              <!-- Practicum Milestones -->
+              <div class="mt-6 pt-6 space-y-3">
+                <div class="flex items-center justify-between text-xs font-semibold">
+                  <span class="text-charcoal">Clinical Practicum Target</span>
+                  <span class="text-laurel font-bold">Academic Year 2026</span>
+                </div>
+                <div class="w-full bg-linen-dark rounded-full h-2.5 overflow-hidden">
+                  <div class="bg-laurel h-2.5 rounded-full w-3/4"></div>
+                </div>
+                <div class="flex justify-between text-xs text-driftwood">
+                  <span>Current Clinical Casework</span>
+                  <span>Supervised Educational Review</span>
+                </div>
+              </div>
+
+              <!-- Trilingual Badges -->
+              <div class="mt-6 flex flex-wrap gap-2 justify-center sm:justify-start">
+                <span class="px-3 py-1.5 bg-linen rounded-lg text-xs font-semibold text-charcoal">
+                  Spanish (Español)
+                </span>
+                <span class="px-3 py-1.5 bg-linen rounded-lg text-xs font-semibold text-charcoal">
+                  English
+                </span>
+                <span class="px-3 py-1.5 bg-linen rounded-lg text-xs font-semibold text-charcoal">
+                  Français
+                </span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Right: Narrative Details -->
+          <div class="lg:col-span-7 space-y-5">
+            <h2 class="font-serif-soft text-3xl sm:text-4xl font-bold text-laurel leading-tight">
+              A Personal Journey from Mexico to Montreal
+            </h2>
+
+            <div class="space-y-4 text-base text-charcoal leading-relaxed">
+              <p>
+                Bonjour and hola! I’m Sara. Originally from Mexico, Montreal has been my cherished home for years. As a mother of two growing children, my calling toward natural health was sparked right at our kitchen table—navigating childhood bumps, dental visits, sports sprains, and seasonal chills.
+              </p>
+              <p>
+                I am currently completing advanced professional certifications in both <strong>Naturopathy and Classical Homeopathy</strong> at an accredited Quebec institute. Homeopathy fascinated me because it does not attempt to fight the body like an enemy; it offers gentle energetic micro-stimuli that catalyze your system's natural vitality to recover rapidly.
+              </p>
+              <p>
+                <strong class="text-laurel">Why are these sessions free?</strong> To earn my final clinical graduation credentials, I am required to complete extensive real-world case studies under educational supervision. By reserving a consultation, you receive 100% focused, dedicated, and complimentary care, while directly helping me achieve my clinical degree.
+              </p>
+            </div>
+
+            <!-- Key points checklist with Deep Laurel checkmarks -->
+            <div class="pt-4 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-charcoal">
+              <div class="flex items-center gap-2.5">
+                <svg class="w-5 h-5 text-laurel flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+                </svg>
+                <span>Deeply empathetic &amp; unhurried listener</span>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <svg class="w-5 h-5 text-laurel flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+                </svg>
+                <span>Solid classical single-remedy method</span>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <svg class="w-5 h-5 text-laurel flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+                </svg>
+                <span>Consult in English, French, or Spanish</span>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <svg class="w-5 h-5 text-laurel flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+                </svg>
+                <span>Zero financial or sales obligations</span>
+              </div>
+            </div>
+
+            <div class="pt-4">
+              <a href="#booking" class="inline-flex items-center text-sm font-semibold text-terracotta hover:text-terracotta-dark underline underline-offset-4 gap-1">
+                Schedule a conversation with Sara &rarr;
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- 3. WHAT IS FIRST AID HOMEOPATHY? (GRID LAYOUT WITH CARDS) -->
+    <section id="coverage" class="py-20 bg-alabaster">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Section Header -->
+        <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+          <h2 class="font-serif-soft text-3xl sm:text-4xl lg:text-5xl font-bold text-laurel tracking-tight">
+            What Qualifies as Homeopathic First Aid?
+          </h2>
+          <p class="text-base sm:text-lg text-charcoal leading-relaxed">
+            First-aid (acute) homeopathy addresses short-term, self-limiting discomforts, recent physical impacts, or sudden ailments where the body benefits from a specific natural catalyst to accelerate recovery.
+          </p>
+        </div>
+
+        <!-- 3 Category Cards Grid in Oatmeal Linen -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          
+          <!-- Category 1: Physical Injuries & Recovery -->
+          <div class="bg-linen rounded-3xl p-7 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-terracotta-tint text-terracotta flex items-center justify-center mb-6">
+                <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+                  <path d="M12 8v4M10 10h4"/>
+                </svg>
+              </div>
+
+              <h3 class="font-serif-soft text-xl font-bold text-laurel mb-3">
+                Physical Injuries &amp; Surgical Recovery
+              </h3>
+              <p class="text-sm text-driftwood mb-5 leading-relaxed">
+                Support your body’s tissue repair mechanisms after acute mechanical stress, impact, or post-dental and minor surgical procedures.
+              </p>
+
+              <ul class="space-y-2.5 text-xs sm:text-sm text-charcoal pt-2">
+                <li class="flex items-start gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-terracotta mt-2 flex-shrink-0"></span>
+                  <span><strong>Tooth extractions:</strong> Wisdom tooth removal, painful gums, dental trauma.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-terracotta mt-2 flex-shrink-0"></span>
+                  <span><strong>Minor burns & cuts:</strong> Kitchen scalds, scrapes, superficial lacerations.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-terracotta mt-2 flex-shrink-0"></span>
+                  <span><strong>Sprains & bruises:</strong> Twisted ankles, sports contusions, muscle strain.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-terracotta mt-2 flex-shrink-0"></span>
+                  <span><strong>Post-surgical tissue repair:</strong> Incision soreness, clean scar healing.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mt-6 pt-4 text-xs font-medium text-driftwood italic">
+              Commonly studied remedies: Arnica, Hypericum, Calendula, Staphysagria.
+            </div>
+          </div>
+
+          <!-- Category 2: Acute Onsets -->
+          <div class="bg-linen rounded-3xl p-7 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-sage-tint text-laurel flex items-center justify-center mb-6">
+                <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                </svg>
+              </div>
+
+              <h3 class="font-serif-soft text-xl font-bold text-laurel mb-3">
+                Sudden Acute Onsets
+              </h3>
+              <p class="text-sm text-driftwood mb-5 leading-relaxed">
+                Rapidly developing physical responses triggered by seasonal environmental changes, insect bites, or acute digestive upsets.
+              </p>
+
+              <ul class="space-y-2.5 text-xs sm:text-sm text-charcoal pt-2">
+                <li class="flex items-start gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-laurel mt-2 flex-shrink-0"></span>
+                  <span><strong>Insect & wasp stings:</strong> Sharp localized swelling, heat, puncture relief.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-laurel mt-2 flex-shrink-0"></span>
+                  <span><strong>Mild food intoxication:</strong> Sudden digestive distress, cramps, acute nausea.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-laurel mt-2 flex-shrink-0"></span>
+                  <span><strong>Weather shifts & drafts:</strong> Sudden chill onset after cold, dry Montreal winds.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-laurel mt-2 flex-shrink-0"></span>
+                  <span><strong>Acute situational shock:</strong> Fright or agitation following minor shock.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mt-6 pt-4 text-xs font-medium text-driftwood italic">
+              Commonly studied remedies: Apis mellifica, Ledum palustre, Arsenicum album, Aconite.
+            </div>
+          </div>
+
+          <!-- Category 3: Acute Side Effects & Supportive Care -->
+          <div class="bg-linen rounded-3xl p-7 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-alabaster text-laurel flex items-center justify-center mb-6">
+                <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M18 8h1a4 4 0 0 1 0 8h-1"/>
+                  <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                  <line x1="6" y1="1" x2="6" y2="4"/>
+                  <line x1="10" y1="1" x2="10" y2="4"/>
+                  <line x1="14" y1="1" x2="14" y2="4"/>
+                </svg>
+              </div>
+
+              <h3 class="font-serif-soft text-xl font-bold text-laurel mb-3">
+                Acute Side Effects &amp; Support
+              </h3>
+              <p class="text-sm text-driftwood mb-5 leading-relaxed">
+                Complementary comfort care to alleviate acute physical distress and fatigue following intensive medical procedures or seasonal bugs.
+              </p>
+
+              <ul class="space-y-2.5 text-xs sm:text-sm text-charcoal pt-2">
+                <li class="flex items-start gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-charcoal mt-2 flex-shrink-0"></span>
+                  <span><strong>Post-treatment discomfort:</strong> Easing nausea & exhaustion following medical therapies.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-charcoal mt-2 flex-shrink-0"></span>
+                  <span><strong>Seasonal viral malaise:</strong> Heaviness, limb aches, feverish lethargy.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-charcoal mt-2 flex-shrink-0"></span>
+                  <span><strong>Eye irritations:</strong> Redness, burning tears, seasonal dryness.</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <span class="w-1.5 h-1.5 rounded-full bg-charcoal mt-2 flex-shrink-0"></span>
+                  <span><strong>Travel fatigue:</strong> Sudden jet lag, disrupted body rhythms.</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="mt-6 pt-4 text-xs font-medium text-driftwood italic">
+              Commonly studied remedies: Nux vomica, Gelsemium, Euphrasia, Ipecacuanha.
+            </div>
+          </div>
+
+        </div>
+
+        <!-- MEDICAL DISCLAIMER CALLOUT BOX: Warm Linen with Terracotta Border -->
+        <div class="bg-linen rounded-3xl p-6 sm:p-8">
+          <div class="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
+            <div class="w-12 h-12 rounded-2xl bg-terracotta-tint text-terracotta flex-shrink-0 flex items-center justify-center">
+              <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 9v4"/>
+                <path d="M12 17h.01"/>
+                <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+              </svg>
+            </div>
+            <div class="space-y-2">
+              <div class="flex items-center gap-2">
+                <span class="text-xs font-bold text-terracotta bg-terracotta-tint px-2.5 py-0.5 rounded-md">
+                  Essential Safety Notice
+                </span>
+                <span class="text-xs font-semibold text-laurel">Complementary Care Only</span>
+              </div>
+              <h3 class="font-serif-soft text-lg font-bold text-laurel">
+                Homeopathy is never a substitute for urgent emergency medicine.
+              </h3>
+              <p class="text-sm text-charcoal leading-relaxed">
+                Homeopathic first aid is an individualized, gentle complementary modality designed to support healing alongside standard healthcare. If you or a loved one is experiencing suspected fractures, intense chest pain, breathing difficulties, deep uncontrolled bleeding, severe burns, loss of consciousness, or any life-threatening condition, <strong>call 911 or visit your nearest Montreal hospital emergency room immediately</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- 4. HOW IT WORKS (3-STEP VISUAL PROCESS) -->
+    <section id="how-it-works" class="py-20 bg-linen">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-16 space-y-4">
+          <h2 class="font-serif-soft text-3xl sm:text-4xl lg:text-5xl font-bold text-laurel tracking-tight">
+            How Your Consultation Works
+          </h2>
+          <p class="text-base sm:text-lg text-charcoal">
+            A transparent, three-step journey designed to give you clarity, comfort, and direct remedy guidance without any friction.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <!-- Step 1 -->
+          <div class="bg-alabaster rounded-3xl p-8 flex flex-col justify-between">
+            <div class="space-y-4">
+              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-sage-tint text-laurel inline-block">
+                Initial Session
+              </span>
+              
+              <h3 class="font-serif-soft text-xl font-bold text-laurel">
+                60-Minute Intake Video Call
+              </h3>
+              
+              <p class="text-sm text-charcoal leading-relaxed">
+                We meet comfortably online via Microsoft Teams. We thoroughly explore your current acute symptoms, the sensations, what makes them better or worse, and your body's unique response to the stressor.
+              </p>
+            </div>
+
+            <div class="mt-8 pt-4 flex items-center gap-2 text-xs text-driftwood font-medium">
+              <svg class="w-4 h-4 text-laurel" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+              <span>Via Microsoft Teams (Link sent by email)</span>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="bg-alabaster rounded-3xl p-8 flex flex-col justify-between">
+            <div class="space-y-4">
+              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-terracotta-tint text-terracotta inline-block">
+                Individual Plan
+              </span>
+              
+              <h3 class="font-serif-soft text-xl font-bold text-laurel">
+                Personalized Remedy Guidance
+              </h3>
+              
+              <p class="text-sm text-charcoal leading-relaxed">
+                You receive a clear, written case summary with a recommendation for a single homeopathic remedy (potency, frequency, and administration). All remedies are accessible over-the-counter at any local Montreal pharmacy or health store.
+              </p>
+            </div>
+
+            <div class="mt-8 pt-4 flex items-center gap-2 text-xs text-driftwood font-medium">
+              <svg class="w-4 h-4 text-terracotta" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+              </svg>
+              <span>OTC accessibility (approx. $8–$12 at Jean Coutu/Pharmaprix)</span>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="bg-alabaster rounded-3xl p-8 flex flex-col justify-between">
+            <div class="space-y-4">
+              <span class="text-xs font-semibold px-3 py-1 rounded-full bg-sage-tint text-laurel inline-block">
+                Follow-Up &amp; Study
+              </span>
+              
+              <h3 class="font-serif-soft text-xl font-bold text-laurel">
+                15-Minute Follow-Up
+              </h3>
+              
+              <p class="text-sm text-charcoal leading-relaxed">
+                A brief check-in 3 to 5 days later. We evaluate how your system responded, note any shifts, and fine-tune dosing if needed. This step confirms your recovery and officially logs the clinical study hours.
+              </p>
+            </div>
+
+            <div class="mt-8 pt-4 flex items-center gap-2 text-xs text-driftwood font-medium">
+              <svg class="w-4 h-4 text-laurel" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+              </svg>
+              <span>Ensures safe progression & case completion</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- 5. BOOKING & INTAKE SECTION -->
+    <section id="booking" class="py-20 bg-alabaster">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-12 space-y-3">
+          <h2 class="font-serif-soft text-3xl sm:text-4xl lg:text-5xl font-bold text-laurel tracking-tight">
+            Schedule Your Free Consultation
+          </h2>
+          <p class="text-base sm:text-lg text-charcoal">
+            Please fill out the brief intake details below. Once submitted, you'll receive a confirmation with your private Microsoft Teams meeting link.
+          </p>
+        </div>
+
+        <!-- Booking Form Container in Oatmeal Linen -->
+        <div class="bg-linen rounded-3xl p-6 sm:p-10 relative overflow-hidden" data-ui="form">
+          
+          <!-- Success State Banner (Hidden by default, shown via JS) -->
+          <div id="bookingSuccess" class="hidden text-center py-12 px-4 space-y-6">
+            <div class="w-16 h-16 rounded-full bg-sage-tint text-laurel flex items-center justify-center mx-auto">
+              <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+              </svg>
+            </div>
+            <div class="space-y-2">
+              <h3 class="font-serif-soft text-2xl sm:text-3xl font-bold text-laurel">
+                Your Free Session is Reserved!
+              </h3>
+              <p class="text-sm sm:text-base text-charcoal max-w-md mx-auto leading-relaxed">
+                Thank you! Sara will review your intake notes and send your calendar invite and Microsoft Teams link to your email address shortly.
+              </p>
+            </div>
+            
+            <div class="bg-alabaster rounded-2xl p-5 max-w-md mx-auto text-left text-xs space-y-2.5 text-charcoal">
+              <div class="flex justify-between font-medium">
+                <span class="text-driftwood">Practicum Case ID:</span>
+                <span class="text-laurel font-bold" id="caseIdPreview">MTL-2026-8472</span>
+              </div>
+              <div class="flex justify-between font-medium">
+                <span class="text-driftwood">Consultation Fee:</span>
+                <span class="font-bold text-laurel">$0.00 (Student Practicum)</span>
+              </div>
+              <div class="flex justify-between font-medium">
+                <span class="text-driftwood">Platform:</span>
+                <span>Microsoft Teams Online</span>
+              </div>
+            </div>
+
+            <button type="button" id="resetBookingBtn" class="text-xs font-semibold text-terracotta hover:text-terracotta-dark underline underline-offset-4">
+              Submit another request or edit details
+            </button>
+          </div>
+
+          <!-- Active Intake Form -->
+          <form id="consultationForm" class="space-y-6">
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+              
+              <!-- Full Name -->
+              <div>
+                <label for="fullName" class="block text-xs font-bold text-charcoal mb-2">
+                  Full Name <span class="text-terracotta">*</span>
+                </label>
+                <input 
+                  type="text" 
+                  id="fullName" 
+                  name="fullName" 
+                  required 
+                  placeholder="e.g. Marie Tremblay" 
+                  class="w-full px-4 py-3 rounded-xl bg-alabaster text-charcoal text-sm focus:outline-none focus:ring-2 focus:ring-laurel focus:bg-white transition-colors placeholder:text-driftwood-light border-0"
+                >
+              </div>
+
+              <!-- Email Address -->
+              <div>
+                <label for="email" class="block text-xs font-bold text-charcoal mb-2">
+                  Email Address <span class="text-terracotta">*</span>
+                </label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  required 
+                  placeholder="marie@example.ca" 
+                  class="w-full px-4 py-3 rounded-xl bg-alabaster text-charcoal text-sm focus:outline-none focus:ring-2 focus:ring-laurel focus:bg-white transition-colors placeholder:text-driftwood-light border-0"
+                >
+                <span class="text-xs text-driftwood mt-1 block">Your private Teams invitation will be sent here.</span>
+              </div>
+
+              <!-- Phone Number -->
+              <div>
+                <label for="phone" class="block text-xs font-bold text-charcoal mb-2">
+                  Phone Number (Optional)
+                </label>
+                <input 
+                  type="tel" 
+                  id="phone" 
+                  name="phone" 
+                  placeholder="(514) 000-0000" 
+                  class="w-full px-4 py-3 rounded-xl bg-alabaster text-charcoal text-sm focus:outline-none focus:ring-2 focus:ring-laurel focus:bg-white transition-colors placeholder:text-driftwood-light border-0"
+                >
+              </div>
+
+              <!-- Preferred Language -->
+              <div>
+                <label for="preferredLang" class="block text-xs font-bold text-charcoal mb-2">
+                  Preferred Language <span class="text-terracotta">*</span>
+                </label>
+                <select 
+                  id="preferredLang" 
+                  name="preferredLang" 
+                  required
+                  class="w-full px-4 py-3 rounded-xl bg-alabaster text-charcoal text-sm focus:outline-none focus:ring-2 focus:ring-laurel focus:bg-white transition-colors border-0"
+                >
+                  <option value="English">English</option>
+                  <option value="Français">Français</option>
+                  <option value="Español">Español</option>
+                </select>
+              </div>
+
+            </div>
+
+            <!-- Preferred Time Slot -->
+            <div>
+              <label class="block text-xs font-bold text-charcoal mb-2">
+                Preferred Time of Day <span class="text-terracotta">*</span>
+              </label>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <label class="flex items-center gap-3 p-3.5 rounded-xl bg-alabaster hover:bg-white cursor-pointer transition-colors">
+                  <input type="radio" name="timeSlot" value="Morning" checked class="text-laurel focus:ring-laurel">
+                  <span class="text-xs sm:text-sm font-medium text-charcoal">Mornings (9am – 12pm)</span>
+                </label>
+                <label class="flex items-center gap-3 p-3.5 rounded-xl bg-alabaster hover:bg-white cursor-pointer transition-colors">
+                  <input type="radio" name="timeSlot" value="Afternoon" class="text-laurel focus:ring-laurel">
+                  <span class="text-xs sm:text-sm font-medium text-charcoal">Afternoons (1pm – 5pm)</span>
+                </label>
+                <label class="flex items-center gap-3 p-3.5 rounded-xl bg-alabaster hover:bg-white cursor-pointer transition-colors">
+                  <input type="radio" name="timeSlot" value="Evening" class="text-laurel focus:ring-laurel">
+                  <span class="text-xs sm:text-sm font-medium text-charcoal">Evenings (6pm – 8pm)</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Reason for Consultation / Acute Situation -->
+            <div>
+              <label for="symptoms" class="block text-xs font-bold text-charcoal mb-2">
+                Reason for Consultation / Current Acute Challenge <span class="text-terracotta">*</span>
+              </label>
+              <textarea 
+                id="symptoms" 
+                name="symptoms" 
+                rows="4" 
+                required 
+                placeholder="Please describe what you are experiencing (e.g. 'I had a tooth extracted yesterday and have lingering throbbing pain', 'Sprained my wrist slipping on ice', 'Sudden insect sting that is swollen and burning')..." 
+                class="w-full px-4 py-3 rounded-xl bg-alabaster text-charcoal text-sm focus:outline-none focus:ring-2 focus:ring-laurel focus:bg-white transition-colors leading-relaxed placeholder:text-driftwood-light border-0"
+              ></textarea>
+              <span class="text-xs text-driftwood mt-1 block">Everything you share is strictly confidential and used solely for educational case study documentation.</span>
+            </div>
+
+            <!-- Student Educational Consent Checkbox -->
+            <div class="pt-2">
+              <label class="flex items-start gap-3 cursor-pointer group">
+                <input 
+                  type="checkbox" 
+                  id="consent" 
+                  name="consent" 
+                  required 
+                  class="mt-1 w-4 h-4 rounded text-laurel focus:ring-laurel"
+                >
+                <span class="text-xs sm:text-sm text-charcoal leading-snug">
+                  I understand this is a <strong>student educational consultation</strong> and complementary care. I acknowledge that homeopathy does not replace emergency medical treatment (911 / ER) and that Sara is fulfilling clinical practicum hours.
+                </span>
+              </label>
+            </div>
+
+            <!-- Submit Button in Deep Laurel Green -->
+            <div class="pt-4">
+              <button 
+                type="submit" 
+                class="w-full py-4 px-6 rounded-2xl bg-laurel hover:bg-laurel-hover text-white font-semibold text-base transform hover:-translate-y-0.5 transition-transform flex items-center justify-center gap-2 group"
+              >
+                <span>Schedule Your Free Consultation</span>
+                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                </svg>
+              </button>
+              <div class="mt-3 flex items-center justify-center gap-4 text-xs text-driftwood">
+                <span class="flex items-center gap-1">
+                  <svg class="w-3.5 h-3.5 text-laurel" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                  </svg>
+                  Confidential &amp; Secure
+                </span>
+                <span>•</span>
+                <span>No Credit Card Needed</span>
+                <span>•</span>
+                <span>Montreal Practicum 2026</span>
+              </div>
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- 6. FAQ SECTION (ACCORDION STYLE) -->
+    <section id="faq" class="py-20 bg-linen">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+          <h2 class="font-serif-soft text-3xl sm:text-4xl font-bold text-laurel tracking-tight">
+            Frequently Asked Questions
+          </h2>
+          <p class="text-base text-driftwood">
+            Everything you need to know about student practicum consultations, remedy accessibility, and sessions.
+          </p>
+        </div>
+
+        <!-- Accordions in Alabaster on Linen -->
+        <div class="space-y-4" id="faqAccordion">
+          
+          <!-- FAQ 1 -->
+          <div class="faq-item rounded-2xl bg-alabaster overflow-hidden">
+            <button type="button" class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-serif-soft text-lg font-bold text-laurel">
+                Why is this consultation completely free?
+              </span>
+              <span class="faq-icon w-8 h-8 rounded-full bg-linen flex items-center justify-center text-laurel flex-shrink-0 transition-transform duration-200">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm text-charcoal leading-relaxed pt-2">
+              I am completing my final clinical year in Naturopathy and Homeopathy in Quebec. To earn my diploma and clinical hours accreditation, I must conduct, analyze, and document verified first-aid case histories. In exchange for your time and participation in my clinical portfolio, the 60-minute intake session and follow-up are offered with zero charge.
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item rounded-2xl bg-alabaster overflow-hidden">
+            <button type="button" class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-serif-soft text-lg font-bold text-laurel">
+                Do I need to buy anything, or will you sell me supplements?
+              </span>
+              <span class="faq-icon w-8 h-8 rounded-full bg-linen flex items-center justify-center text-laurel flex-shrink-0 transition-transform duration-200">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm text-charcoal leading-relaxed pt-2">
+              No. I do not sell remedies, supplements, or test kits. Classical homeopathy relies on standard single remedies (such as Arnica, Calendula, or Apis) that are widely available over-the-counter in Montreal at natural dispensaries, health stores (like Rachelle-Béry or Tau), and standard pharmacies (Jean Coutu, Pharmaprix) for around $7 to $12 per vial.
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item rounded-2xl bg-alabaster overflow-hidden">
+            <button type="button" class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-serif-soft text-lg font-bold text-laurel">
+                What if I am located outside of Montreal?
+              </span>
+              <span class="faq-icon w-8 h-8 rounded-full bg-linen flex items-center justify-center text-laurel flex-shrink-0 transition-transform duration-200">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm text-charcoal leading-relaxed pt-2">
+              You are very welcome to book! Because all consultations take place online via Microsoft Teams, anyone in Quebec, Canada, or internationally who has local access to homeopathic single remedies (or online delivery) can participate in these educational sessions.
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item rounded-2xl bg-alabaster overflow-hidden">
+            <button type="button" class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-serif-soft text-lg font-bold text-laurel">
+                Can I participate if I am currently taking conventional prescription medication?
+              </span>
+              <span class="faq-icon w-8 h-8 rounded-full bg-linen flex items-center justify-center text-laurel flex-shrink-0 transition-transform duration-200">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm text-charcoal leading-relaxed pt-2">
+              Yes. Highly diluted homeopathic remedies work via subtle biological resonance and do not pharmacologically interfere or interact with allopathic pharmaceuticals. You should NEVER alter or discontinue any medical prescriptions or physician recommendations.
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item rounded-2xl bg-alabaster overflow-hidden">
+            <button type="button" class="faq-toggle w-full px-6 py-5 text-left flex items-center justify-between gap-4 focus:outline-none" aria-expanded="false">
+              <span class="font-serif-soft text-lg font-bold text-laurel">
+                How should I prepare for our 60-minute video call?
+              </span>
+              <span class="faq-icon w-8 h-8 rounded-full bg-linen flex items-center justify-center text-laurel flex-shrink-0 transition-transform duration-200">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq-content hidden px-6 pb-5 text-sm text-charcoal leading-relaxed pt-2">
+              Simply find a quiet, comfortable space with a stable internet connection. Think about the exact timeline of your acute symptoms: when did it start, what does the pain or discomfort feel like (throbbing, stinging, dull, burning?), and what makes it feel slightly better or worse (heat, cold compress, rest, movement?).
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 7. FOOTER in Deep Laurel Green -->
+  <footer class="bg-laurel text-alabaster pt-16 pb-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12">
+        
+        <!-- Left: Identity & Purpose -->
+        <div class="md:col-span-5 space-y-4">
+          <div class="flex items-center gap-3">
+            <div class="w-9 h-9 rounded-full bg-laurel-light flex items-center justify-center text-alabaster">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+              </svg>
+            </div>
+            <span class="font-serif-soft text-xl font-bold tracking-tight text-white">
+              Sara Homeopathy
+            </span>
+          </div>
+          
+          <p class="text-sm text-linen leading-relaxed max-w-sm">
+            Student Clinical Practicum in Homeopathy &amp; Naturopathy. Dedicated to gentle, accessible first-aid recovery and natural vitality support across Montreal communities.
+          </p>
+
+          <div class="text-xs text-sage flex items-center gap-2">
+            <span>Montreal (Tiohtià:ke), Quebec</span>
+            <span>•</span>
+            <span>Trilingual (English / Français / Español)</span>
+          </div>
+        </div>
+
+        <!-- Middle: Direct Contact -->
+        <div class="md:col-span-3 space-y-3">
+          <h4 class="text-xs font-bold text-sage">
+            Clinical Contact
+          </h4>
+          <p class="text-xs text-linen">
+            Questions regarding practicum availability or case suitability?
+          </p>
+          <a href="mailto:sara.homeopathy.mtl@gmail.com" class="inline-block text-sm font-semibold text-terracotta-tint hover:text-white underline underline-offset-4 transition-colors">
+            sara.homeopathy.mtl@gmail.com
+          </a>
+          <p class="text-xs text-sage">
+            Microsoft Teams links issued automatically upon booking.
+          </p>
+        </div>
+
+        <!-- Right: Legal / Medical Practice Disclaimer -->
+        <div class="md:col-span-4 space-y-3 bg-laurel-dark p-6 rounded-2xl">
+          <h4 class="text-xs font-bold text-terracotta flex items-center gap-1.5">
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 9v4"/>
+              <path d="M12 17h.01"/>
+              <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+            </svg>
+            Educational Practicum Notice
+          </h4>
+          <p class="text-xs text-linen leading-relaxed">
+            Sara is a student intern fulfilling supervised clinical hours. Homeopathic consultations are complementary educational sessions and do not represent a medical diagnosis, prescription, or medical emergency intervention under the Quebec Medical Act. In an acute emergency, please contact 911 immediately.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Copyright & Montreal Community Credit -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-sage">
+        <p>
+          &copy; 2026 Sara Homeopathy. Supervised Clinical Practicum. All rights reserved.
+        </p>
+        <p class="text-sage">
+          Rooted in the Montreal community with care and warmth
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT: Interactivity & State Handlers -->
+  <script>
+    // 1. Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const menuIcon = document.getElementById('menuIcon');
+    const closeIcon = document.getElementById('closeIcon');
+
+    if (mobileMenuBtn) {
+      mobileMenuBtn.addEventListener('click', () => {
+        const isHidden = mobileMenu.classList.contains('hidden');
+        if (isHidden) {
+          mobileMenu.classList.remove('hidden');
+          menuIcon.classList.add('hidden');
+          closeIcon.classList.remove('hidden');
+        } else {
+          mobileMenu.classList.add('hidden');
+          menuIcon.classList.remove('hidden');
+          closeIcon.classList.add('hidden');
+        }
+      });
+
+      // Close mobile menu on click of any nav link
+      document.querySelectorAll('.mobile-nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+          menuIcon.classList.remove('hidden');
+          closeIcon.classList.add('hidden');
+        });
+      });
+    }
+
+    // 2. FAQ Accordion Logic
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+      const toggle = item.querySelector('.faq-toggle');
+      const content = item.querySelector('.faq-content');
+      const icon = item.querySelector('.faq-icon');
+
+      toggle.addEventListener('click', () => {
+        const isOpen = !content.classList.contains('hidden');
+        
+        // Close all other accordions for clean accordion behavior
+        faqItems.forEach(otherItem => {
+          if (otherItem !== item) {
+            otherItem.querySelector('.faq-content').classList.add('hidden');
+            otherItem.querySelector('.faq-icon').classList.remove('rotate-180');
+            otherItem.querySelector('.faq-toggle').setAttribute('aria-expanded', 'false');
+          }
+        });
+
+        if (isOpen) {
+          content.classList.add('hidden');
+          icon.classList.remove('rotate-180');
+          toggle.setAttribute('aria-expanded', 'false');
+        } else {
+          content.classList.remove('hidden');
+          icon.classList.add('rotate-180');
+          toggle.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    // 3. Interactive Booking Form & Simulated Confirmation
+    const consultationForm = document.getElementById('consultationForm');
+    const bookingSuccess = document.getElementById('bookingSuccess');
+    const resetBookingBtn = document.getElementById('resetBookingBtn');
+    const caseIdPreview = document.getElementById('caseIdPreview');
+
+    if (consultationForm) {
+      consultationForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        
+        const randomNum = Math.floor(1000 + Math.random() * 9000);
+        if (caseIdPreview) {
+          caseIdPreview.textContent = `MTL-2026-${randomNum}`;
+        }
+
+        consultationForm.classList.add('hidden');
+        bookingSuccess.classList.remove('hidden');
+
+        const bookingSection = document.getElementById('booking');
+        if (bookingSection) {
+          bookingSection.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    }
+
+    if (resetBookingBtn) {
+      resetBookingBtn.addEventListener('click', () => {
+        consultationForm.reset();
+        bookingSuccess.classList.add('hidden');
+        consultationForm.classList.remove('hidden');
+      });
+    }
+  </script>
+
+</body>
+</html>
