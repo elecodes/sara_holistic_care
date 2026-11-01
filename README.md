@@ -2,6 +2,8 @@
 
 A clean, warm, and trustworthy single-page landing page for Sara, a Montreal-based Naturopathy & Classical Homeopathy student practitioner offering complimentary acute/first-aid consultations to complete her final clinical certification hours.
 
+🌐 **Live Website**: [https://saranaturopathy.netlify.app/](https://saranaturopathy.netlify.app/)
+
 ---
 
 ## 🌿 Design System & Aesthetics
